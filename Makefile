@@ -41,6 +41,10 @@ rpc/errfields/error_fields.pb.go: rpc/errfields/error_fields.proto
 	$(GENERATOR) \
 		rpc/errfields/error_fields.proto
 
+rpc/resource/resource.pb.go: rpc/resource/resource.proto
+	$(GENERATOR) \
+		rpc/resource/resource.proto
+
 server/testdata/test.pb.go: server/testdata/test.proto
 	$(GENERATOR) \
 		server/testdata/test.proto
